@@ -176,6 +176,7 @@ h1{
 
 
   #container {
+    z-index: 99999999999999999999999999999999999999999999;
     color:rgb(0, 0, 0);
     
     font-family: 'Bebas Neue', cursive;
