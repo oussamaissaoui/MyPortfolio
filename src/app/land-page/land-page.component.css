@@ -191,12 +191,14 @@ h1{
   }
   
   #flip {
+    z-index: 99999999999999999999999999999999999999999999;
     height:105px;
     overflow:hidden;
     width: 100%;
   }
   
   #flip > div > div {
+    z-index: 99999999999999999999999999999999999999999999;
     color:#fff;
     padding:4px 12px;
     height:100px;
