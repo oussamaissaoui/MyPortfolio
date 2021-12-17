@@ -1,0 +1,38 @@
+
+.firscanvas{
+
+ height: 100%; width: 100%;position: absolute;
+ 
+
+}
+
+.seccanvas{
+
+    height: 100%; width: 100px;position: absolute; top: 70%;
+    
+}
+
+
+
+ /*////////////////////////////////////////MEDIA/////////////////////////////////////////////////////////////////*/
+
+
+ @media (max-width: 450px){
+    .firscanvas{
+
+        height: 100%; width: 100%;position: absolute;
+        right: 0%;
+        
+        
+       
+       }
+
+       .seccanvas{
+
+        position: absolute;
+        height: 100%; width: 400px; top: 70%;
+        
+    }
+    
+    
+ }

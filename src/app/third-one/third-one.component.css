@@ -1,0 +1,47 @@
+.element {
+    
+    box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+    border: 1px solid rgba(127,255,255,0.25);
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: normal;
+    cursor: default;
+    
+    scale: 1.5;
+}
+
+.element:hover {
+    
+    /*
+    box-shadow: 0px 0px 12px rgba(0, 255, 200, 0.637);
+    border: 1px solid rgba(127,255,255,0.75);
+    
+    transform: rotateZ(180deg);
+
+        scale:0.5;  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+     
+}
+
+.cssdiv{
+    position:absolute;top: 10%;left: 10%;  z-index: 66;
+    
+    
+    
+}
+
+
+  /*////////////////////////////////////////MEDIA/////////////////////////////////////////////////////////////////*/
+
+
+  @media (max-width: 450px){
+    .cssdiv{
+        position:absolute;top: 10%;left: 10%;  z-index: 66;
+        background-color: red;
+        margin-top: -200px;
+    height: 25px;
+    width: 50%;        
+        
+        
+    }
+
+  }

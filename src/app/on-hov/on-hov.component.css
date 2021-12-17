@@ -1,0 +1,63 @@
+
+canvas {
+   
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    width: 100%;
+    height: 140%;
+    
+  }
+  
+  
+  
+  ul {
+      z-index: 3;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    height: 100%;
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+  }
+  
+  ul li {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.118);
+    cursor: pointer;
+    transition: 1s;
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  ul :hover {
+    opacity: 100%;
+   
+    
+    font-weight: lighter;
+    
+  }
+
+  li :hover {
+    opacity: 1;
+   
+    
+    
+  }
+
+
+  .Mtitle {
+    position: absolute;
+   
+    top: 2%;
+  left: 45%;
+    
+   
+    font-size: 67px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    
+  }
