@@ -50,7 +50,7 @@ h1{
     font-family: 'Bebas Neue', cursive;
   }
 
-  .container {
+  .container2 {
 
     position: absolute;
     top: 40%;
@@ -175,8 +175,8 @@ h1{
 
 
 
-  #container {
-    z-index: 99999999999999999999999999999999999999999999;
+  #container22 {
+    z-index: 99999999999999999999999999;
     color:rgb(0, 0, 0);
     
     font-family: 'Bebas Neue', cursive;
@@ -191,14 +191,15 @@ h1{
   }
   
   #flip {
-    z-index: 99999999999999999999999999999999999999999999;
+    z-index: 99999999999999999999999999;
     height:105px;
     overflow:hidden;
     width: 100%;
+    
   }
   
   #flip > div > div {
-    z-index: 99999999999999999999999999999999999999999999;
+    z-index: 99999999999999999999999999;
     color:#fff;
     padding:4px 12px;
     height:100px;
@@ -222,7 +223,16 @@ h1{
     background:#420472;
   }
   
-
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-212px;}
+    33% {margin-top:-212px;}
+    38% {margin-top:-99px;}
+    66% {margin-top:-99px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
   
  
   
@@ -302,7 +312,7 @@ z-index: 999;
       
       }
 
-      .container {
+      .container2 {
 
         position: absolute;
         top: 40%;
@@ -326,18 +336,21 @@ z-index: 999;
         height:55px;
         overflow:hidden;
         width: 100%;
+        z-index: 99999999999999999999999999999999999999999999;
       }
 
       #flip > div > div {
         color:#fff;
         padding:4px 12px;
         height:109.5px;
+        z-index: 99999999999999999999999999999999999999999999;
         
         
         display:inline-block;
       }
 
-      #container {
+      #container22 {
+        z-index: 99999999999999999999999999999999999999999999;
         color:rgb(0, 0, 0);
         
         font-family: 'Bebas Neue', cursive;
@@ -351,5 +364,8 @@ z-index: 999;
         display:block;
       }
   }
+
+  
+
 
   
