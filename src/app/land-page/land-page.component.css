@@ -214,6 +214,7 @@ h1{
   
   #flip div div {
     background:#42c58a;
+    opacity: 30%;
     
   }
   #flip div:first-child div {
